@@ -129,14 +129,15 @@ useEffect(() => {
 >
   <div>
     🔴 <b>High Risk:</b> 2
+    {highRiskCount}
   </div>
 
   <div>
-    🟠 <b>Medium Risk:</b> 2
+    🟠 <b>Medium Risk:</b> {mediumRiskCount}
   </div>
 
   <div>
-    🟢 <b>Low Risk:</b> 1
+    🟢 <b>Low Risk:</b> {lowRiskCount}
   </div>
 
   <div>
